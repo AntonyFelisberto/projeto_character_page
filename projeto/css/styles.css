@@ -290,6 +290,7 @@ footer .detail {
 
     #banner-info h1 {
         font-size: 20px;
+        color: rgb(38, 0, 255);
     }
 
     #banner-info {
@@ -366,5 +367,14 @@ footer .detail {
     .detail {
         margin-top: 10px;
         display: block;
+    }
+}
+
+@media (max-width: 396px) {
+    .skills-container p {
+        line-height: 25px;
+        inline-size: 290px;
+        font-size:5vw;
+        overflow-wrap: break-word;
     }
 }
